@@ -145,4 +145,5 @@ dt {
 .flag-icon {
   width: 2.5em !important;
   line-height: 1.3em !important;
+  cursor: pointer;
 }
