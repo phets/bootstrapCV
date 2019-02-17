@@ -1,0 +1,148 @@
+@media (min-width: 576px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+body { 
+  background: #CCC !important; /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+} 
+
+.header {
+  background-color: #FFF;
+  padding: 15px;
+}
+
+.portrait {
+  border-width: 5px;
+
+}
+
+.quick-links {
+  background-color: #292;
+  height: 50px;
+}
+
+.quick-links a {
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+.header-name {
+  font-family: 'Dosis', 'Open Sans', 'Sans Serif'  !important;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 0.3rem;
+  margin-bottom: 0px;
+}
+
+.header-about {
+  font-family: 'Dosis', 'Open Sans', 'Sans Serif'  !important;
+  font-weight: bold;
+  font-size: 24px;
+
+  color: #444 !important;
+  border-bottom: 2px solid #CCC;
+}
+
+.header-profession {
+  color: #888 !important;
+  font-family: 'Open Sans', 'Sans Serif'  !important;
+  font-size: 16px;
+  margin-bottom: 0rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.quick-contacts {
+  margin-bottom: 0rem;
+}
+.quick-contacts dt {
+  color: #444;
+}
+
+.main-content {
+  background-color: #FFF;
+}
+
+.section-heading {
+    font-family: 'Dosis', 'Open Sans', 'Sans Serif'  !important;
+  font-weight: bold;
+  font-size: 24px;
+
+  color: #444 !important;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 0.5rem;
+}
+.card {
+  border-style: none;
+}
+
+.progress-bar {
+  background-color: #888;
+}
+
+.card-title {
+  font-family: 'Dosis', 'Open Sans', 'Sans Serif'  !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-years {
+  font-family: 'Dosis', 'Open Sans', 'Sans Serif'  !important;
+  font-weight: bold;
+  font-size: 16px;
+  color: #BBB;
+}
+
+.card-period {
+  font-family: 'Dosis', 'Open Sans', 'Sans Serif'  !important;
+  font-weight: normal;
+  font-size: 20px;
+  color: #888;
+}
+
+.card-header {
+  border-bottom: 2px solid #CCC;
+}
+
+.card-footer li {
+  font-size: 14px;
+}
+
+.card-footer ul {
+  margin-bottom: 0rem;
+}
+
+.profession-subtitle {
+  color: #888 !important;
+  font-family: 'Open Sans', 'Sans Serif'  !important;
+  font-size: 14px;
+}
+
+.no-border {
+  border-style: none;
+}
+
+dt {
+  overflow-wrap: normal;
+  hyphens: auto;
+  margin-bottom: .5rem;
+}
+
+.flag-icon {
+  width: 2.5em !important;
+  line-height: 1.3em !important;
+}
